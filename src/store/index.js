@@ -3,6 +3,7 @@ import listMovieSlice from "./slices/listMovieSlice";
 import detailMovieSlice from "./slices/detailMovieSlice";
 import userSlice from "./slices/user.slice";
 import themeSlice from "./slices/themeSlice";
+import registerSlice from "./slices/registerSlice";
 
 // tạo store
 export const store = configureStore({
@@ -11,6 +12,7 @@ export const store = configureStore({
     detailMovie: detailMovieSlice,
     user: userSlice,
     theme: themeSlice,
+    register: registerSlice,
   },
 });
 
